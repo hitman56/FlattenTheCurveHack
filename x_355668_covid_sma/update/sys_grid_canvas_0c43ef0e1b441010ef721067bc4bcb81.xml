@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Live data">8043ef0e1b441010ef721067bc4bcb81</legacy_page>
+        <name>PA PA covid - New Tab - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 04:50:19</sys_created_on>
+        <sys_id>0c43ef0e1b441010ef721067bc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA PA covid - New Tab - New Tab</sys_name>
+        <sys_package display_value="covid-smart-testing" source="x_355668_covid_sma">22be4f8a1b041010ef721067bc4bcb72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid-smart-testing">22be4f8a1b041010ef721067bc4bcb72</sys_scope>
+        <sys_update_name>sys_grid_canvas_0c43ef0e1b441010ef721067bc4bcb81</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 04:50:19</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

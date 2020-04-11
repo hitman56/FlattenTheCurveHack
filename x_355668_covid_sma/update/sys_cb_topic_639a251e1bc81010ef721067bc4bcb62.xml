@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="Small talk Topics">23242db273603300c1dc32e954f6a79f</category>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "goals": {
+    "0c0651c3581445c3878a796018cb3810": {
+      "id": "0c0651c3581445c3878a796018cb3810",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "3cd109741d7f426eb39c726bcef23b69": {
+          "id": "3cd109741d7f426eb39c726bcef23b69",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "d292eb815afb45d4b2661832757c3820": {
+          "id": "d292eb815afb45d4b2661832757c3820",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "feb8a81b1b294d50928ef181db9c3ef8": {
+          "id": "feb8a81b1b294d50928ef181db9c3ef8",
+          "stepType": "Prompt",
+          "name": "Coperation",
+          "prompt": {
+            "value": "I need a small cooperation from your End , Small Answers that will help us in performing Efficient test and saving the world .",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "7a6e1d9acdc34d41b05b12a92f2cfb54"
+        },
+        "9ba929786fcf4c3aaf84c8eb842aff36": {
+          "id": "9ba929786fcf4c3aaf84c8eb842aff36",
+          "stepType": "TextOutput",
+          "name": "Introduction",
+          "value": {
+            "value": "Hey  i am Stuart , An Artificially Intelligent Agent , who is on a mission to fight against Corona Virus",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "a32f7f9dad914d69ac5edb1cd36ce215": {
+          "id": "a32f7f9dad914d69ac5edb1cd36ce215",
+          "stepType": "Prompt",
+          "name": "username",
+          "prompt": {
+            "value": "What was your name in your school Attendance Register ,  not the one your mates called about ? ",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "Thats actually a Nice Name",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "c5f624dc2c5f491ca71a524fe7cd9a49"
+        },
+        "c7f9e6c4e40c4b3d9b224adcb358c889": {
+          "id": "c7f9e6c4e40c4b3d9b224adcb358c889",
+          "stepType": "TextOutput",
+          "name": "what do u think",
+          "value": {
+            "value": "So what do you think who are you ?",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "293fdb7ccff04a9f970dac416f845a25": {
+          "stepType": "ChoicePrompt",
+          "name": "male-female",
+          "prompt": {
+            "value": "male/female",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "i had already guessed that right .",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "86d6c0ebfa6b4769a47ba707410993f1",
+          "id": "293fdb7ccff04a9f970dac416f845a25",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "303098693950415493296a467321a4ca": {
+          "id": "303098693950415493296a467321a4ca",
+          "stepType": "Prompt",
+          "name": "age",
+          "prompt": {
+            "value": "How Old are you Jenny ?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "db87d766233f4e8987a07c24f2fe249e"
+        },
+        "b3a580da776c4cbe90f234b0a4e8dc0d": {
+          "id": "b3a580da776c4cbe90f234b0a4e8dc0d",
+          "stepType": "Prompt",
+          "name": "travel history",
+          "prompt": {
+            "value": "When was it you travel last ?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "Oh Thats long , and safe too :)",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "b40bf4aba26a4b348613f97ea0f71614"
+        },
+        "df0e8d9806e44d92b862b7b859c5112f": {
+          "stepType": "ChoicePrompt",
+          "name": "Symptoms",
+          "prompt": {
+            "value": "Do you have any of the Following Symptoms ?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "75183ec27ce641e2ae3dc45562778097",
+          "id": "df0e8d9806e44d92b862b7b859c5112f",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "ee0cb26f2288482dbc74292fd95be50b",
+          "edgeType": "Edge",
+          "source": "c7f9e6c4e40c4b3d9b224adcb358c889",
+          "target": "293fdb7ccff04a9f970dac416f845a25",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "971dbe96ec324bdebd942efe6ecadaf8",
+          "edgeType": "Edge",
+          "source": "9ba929786fcf4c3aaf84c8eb842aff36",
+          "target": "feb8a81b1b294d50928ef181db9c3ef8",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "38d58798eb874956b1f224cf95038383",
+          "edgeType": "Edge",
+          "source": "3cd109741d7f426eb39c726bcef23b69",
+          "target": "9ba929786fcf4c3aaf84c8eb842aff36",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0bfa597925ff4a938ce1b227b9a99fbe",
+          "edgeType": "Edge",
+          "source": "feb8a81b1b294d50928ef181db9c3ef8",
+          "target": "a32f7f9dad914d69ac5edb1cd36ce215",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "df72cf94d0a44a369f0fc83f6bedfa38",
+          "edgeType": "Edge",
+          "source": "a32f7f9dad914d69ac5edb1cd36ce215",
+          "target": "c7f9e6c4e40c4b3d9b224adcb358c889",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "572d0ffd0f034789b272b89c50d77f79",
+          "edgeType": "Edge",
+          "source": "293fdb7ccff04a9f970dac416f845a25",
+          "target": "303098693950415493296a467321a4ca",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1e090041cf634eabbce31ba451a0d42f",
+          "edgeType": "Edge",
+          "source": "303098693950415493296a467321a4ca",
+          "target": "b3a580da776c4cbe90f234b0a4e8dc0d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6fefff0cac4f4036b00e5aedfe7a221d",
+          "edgeType": "Edge",
+          "source": "b3a580da776c4cbe90f234b0a4e8dc0d",
+          "target": "df0e8d9806e44d92b862b7b859c5112f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2b5665be0ae14decbda1e45dba4bc2e0",
+          "edgeType": "Edge",
+          "source": "df0e8d9806e44d92b862b7b859c5112f",
+          "target": "d292eb815afb45d4b2661832757c3820",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "graph_api_version": "1.0.16",
+  "variables": {
+    "daaa5b8edf7f40e28ab5e6cd0e9b448f": {
+      "category": "vaInputs",
+      "id": "daaa5b8edf7f40e28ab5e6cd0e9b448f",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "7a6e1d9acdc34d41b05b12a92f2cfb54": {
+      "id": "7a6e1d9acdc34d41b05b12a92f2cfb54",
+      "name": "coperation",
+      "label": "Coperation",
+      "varType": "boolean",
+      "category": "vaInputs"
+    },
+    "c5f624dc2c5f491ca71a524fe7cd9a49": {
+      "id": "c5f624dc2c5f491ca71a524fe7cd9a49",
+      "name": "username",
+      "label": "Username",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "86d6c0ebfa6b4769a47ba707410993f1": {
+      "id": "86d6c0ebfa6b4769a47ba707410993f1",
+      "name": "male_female",
+      "label": "Male-female",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "He",
+          "value": "He"
+        },
+        {
+          "label": "She",
+          "value": "She",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "db87d766233f4e8987a07c24f2fe249e": {
+      "id": "db87d766233f4e8987a07c24f2fe249e",
+      "name": "age",
+      "label": "Age",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "b40bf4aba26a4b348613f97ea0f71614": {
+      "id": "b40bf4aba26a4b348613f97ea0f71614",
+      "name": "travel_history",
+      "label": "Travel History",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "75183ec27ce641e2ae3dc45562778097": {
+      "id": "75183ec27ce641e2ae3dc45562778097",
+      "name": "symptoms",
+      "label": "Symptoms",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Coughing",
+          "value": "Coughing"
+        },
+        {
+          "label": "Sneezing",
+          "value": "Sneezing",
+          "checked": true
+        },
+        {
+          "label": "Minor temprature",
+          "value": "Minor Temperature",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>covid-slack</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>covid-slack</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 14:41:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>639a251e1bc81010ef721067bc4bcb62</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>covid-slack</sys_name>
+        <sys_package display_value="covid-smart-testing" source="x_355668_covid_sma">22be4f8a1b041010ef721067bc4bcb72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid-smart-testing">22be4f8a1b041010ef721067bc4bcb72</sys_scope>
+        <sys_update_name>sys_cb_topic_639a251e1bc81010ef721067bc4bcb62</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 14:47:09</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=639a251e1bc81010ef721067bc4bcb62"/>
+</record_update>

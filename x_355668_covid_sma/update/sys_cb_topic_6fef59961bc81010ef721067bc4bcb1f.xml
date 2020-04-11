@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="Small talk Topics">23242db273603300c1dc32e954f6a79f</category>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "0ab28ff559ed41268317076ea9ec9d5c": {
+      "id": "0ab28ff559ed41268317076ea9ec9d5c",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "b6d8da3d9cdb4ab6b6afc3f67b783d4e": {
+          "id": "b6d8da3d9cdb4ab6b6afc3f67b783d4e",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "69651cc5c0574c4b96f9c3eaf486c926": {
+          "id": "69651cc5c0574c4b96f9c3eaf486c926",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "3b6dedbaf0244178b0ff4b9f44fd06e3": {
+          "id": "3b6dedbaf0244178b0ff4b9f44fd06e3",
+          "stepType": "Prompt",
+          "name": "Coperation",
+          "prompt": {
+            "value": "I need a small cooperation from your End , Small Answers that will help us in performing Efficient test and saving the world .",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "77aa0fb8360b4ee48e11daa210fc964a"
+        },
+        "cc128f1d98fa4bd192fcc5571a8527ce": {
+          "id": "cc128f1d98fa4bd192fcc5571a8527ce",
+          "stepType": "TextOutput",
+          "name": "Introduction",
+          "value": {
+            "value": "Hey  i am Stuart , An Artificially Intelligent Agent , who is on a mission to fight against Corona Virus",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "08c28b31db894b7692704138176306d1": {
+          "id": "08c28b31db894b7692704138176306d1",
+          "stepType": "ImageOutput",
+          "name": "Stuart Image ",
+          "url": {
+            "value": "https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/film__9553-stuart-little-2--hi_res-9d4853a0.jpg/film__9553-stuart-little-2--hi_res-9d4853a0.jpg",
+            "mode": "simple"
+          },
+          "variableId": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "558bc3b8289e40dfaf78c683a2a0381d": {
+          "id": "558bc3b8289e40dfaf78c683a2a0381d",
+          "stepType": "Prompt",
+          "name": "username",
+          "prompt": {
+            "value": "What was your name in your school Attendance Register ,  not the one your mates called about ? ",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "Thats actually a Nice Name",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "69752a14080f43649cbf50ff9dd5df99"
+        },
+        "a9fbfc11517c42b58b53f35f5fa03a3c": {
+          "id": "a9fbfc11517c42b58b53f35f5fa03a3c",
+          "stepType": "TextOutput",
+          "name": "what do u think",
+          "value": {
+            "value": "So what do you think who are you ?",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "0857ca962e90473ca162de25fec3e786": {
+          "id": "0857ca962e90473ca162de25fec3e786",
+          "stepType": "ImageOutput",
+          "name": "he or she ",
+          "url": {
+            "value": "https://images-na.ssl-images-amazon.com/images/I/41B6YYeBWJL.jpg",
+            "mode": "simple"
+          },
+          "variableId": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "9db773548009465a887f4ade067cb7ae": {
+          "stepType": "ChoicePrompt",
+          "name": "male-female",
+          "prompt": {
+            "value": "male/female",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "i had already guessed that right .",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "3ce8770f589742219c092c9ebc8665d0",
+          "id": "9db773548009465a887f4ade067cb7ae",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "d0604c39558f4545bf994b42d61dc879": {
+          "id": "d0604c39558f4545bf994b42d61dc879",
+          "stepType": "Prompt",
+          "name": "age",
+          "prompt": {
+            "value": "How Old are you Jenny ?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "8b4e63ccdedb4614ad83d28d78151d1b"
+        },
+        "e4ac6a630fff433ba371889cd309bbf9": {
+          "id": "e4ac6a630fff433ba371889cd309bbf9",
+          "stepType": "ImageOutput",
+          "name": "age joke",
+          "url": {
+            "value": "https://media.tenor.com/images/468a77e068878c999cbfa5fa65824e01/tenor.gif",
+            "mode": "simple"
+          },
+          "variableId": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "4214590cbff84b81b9c451461ba5df98",
+          "edgeType": "Edge",
+          "source": "b6d8da3d9cdb4ab6b6afc3f67b783d4e",
+          "target": "cc128f1d98fa4bd192fcc5571a8527ce",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "120be37348ee4545969ac677fc0efaff",
+          "edgeType": "Edge",
+          "source": "cc128f1d98fa4bd192fcc5571a8527ce",
+          "target": "08c28b31db894b7692704138176306d1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "453809844baa4b19bd2097469f38231c",
+          "edgeType": "Edge",
+          "source": "08c28b31db894b7692704138176306d1",
+          "target": "3b6dedbaf0244178b0ff4b9f44fd06e3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dcfa8695a81c4853ac4494b1cd23b300",
+          "edgeType": "Edge",
+          "source": "3b6dedbaf0244178b0ff4b9f44fd06e3",
+          "target": "558bc3b8289e40dfaf78c683a2a0381d",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6da8b77d982f4db09a6ee8fe2eaf9f84",
+          "edgeType": "Edge",
+          "source": "558bc3b8289e40dfaf78c683a2a0381d",
+          "target": "a9fbfc11517c42b58b53f35f5fa03a3c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1ba093f18d2b4476880ec067dbb6ea04",
+          "edgeType": "Edge",
+          "source": "a9fbfc11517c42b58b53f35f5fa03a3c",
+          "target": "0857ca962e90473ca162de25fec3e786",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "65199758e8224b29b714ecb96dd0566c",
+          "edgeType": "Edge",
+          "source": "0857ca962e90473ca162de25fec3e786",
+          "target": "9db773548009465a887f4ade067cb7ae",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "331fc54f048d48ecb9789b1dc65084b9",
+          "edgeType": "Edge",
+          "source": "9db773548009465a887f4ade067cb7ae",
+          "target": "d0604c39558f4545bf994b42d61dc879",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8da78e12c688409dbc98369b82667579",
+          "edgeType": "Edge",
+          "source": "d0604c39558f4545bf994b42d61dc879",
+          "target": "e4ac6a630fff433ba371889cd309bbf9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a44f072ab56a41959aa94fcf5f03b107",
+          "edgeType": "Edge",
+          "source": "e4ac6a630fff433ba371889cd309bbf9",
+          "target": "69651cc5c0574c4b96f9c3eaf486c926",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "77aa0fb8360b4ee48e11daa210fc964a": {
+      "id": "77aa0fb8360b4ee48e11daa210fc964a",
+      "name": "coperation",
+      "label": "Coperation",
+      "varType": "boolean",
+      "category": "vaInputs"
+    },
+    "69752a14080f43649cbf50ff9dd5df99": {
+      "id": "69752a14080f43649cbf50ff9dd5df99",
+      "name": "username",
+      "label": "Username",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "3ce8770f589742219c092c9ebc8665d0": {
+      "id": "3ce8770f589742219c092c9ebc8665d0",
+      "name": "male_female",
+      "label": "Male-female",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "He",
+          "value": "He"
+        },
+        {
+          "label": "She",
+          "value": "She",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "8b4e63ccdedb4614ad83d28d78151d1b": {
+      "id": "8b4e63ccdedb4614ad83d28d78151d1b",
+      "name": "age",
+      "label": "Age",
+      "varType": "string",
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Covid-19 detection</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Covid-19 detection</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 13:55:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6fef59961bc81010ef721067bc4bcb1f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Covid-19 detection</sys_name>
+        <sys_package display_value="covid-smart-testing" source="x_355668_covid_sma">22be4f8a1b041010ef721067bc4bcb72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid-smart-testing">22be4f8a1b041010ef721067bc4bcb72</sys_scope>
+        <sys_update_name>sys_cb_topic_6fef59961bc81010ef721067bc4bcb1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 14:30:08</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=6fef59961bc81010ef721067bc4bcb1f"/>
+</record_update>

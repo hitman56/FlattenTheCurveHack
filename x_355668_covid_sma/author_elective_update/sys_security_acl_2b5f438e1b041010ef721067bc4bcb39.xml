@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_355668_covid_sma_users</description>
+        <name>x_355668_covid_sma_users</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 03:23:27</sys_created_on>
+        <sys_id>2b5f438e1b041010ef721067bc4bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_355668_covid_sma_users</sys_name>
+        <sys_package display_value="covid-smart-testing" source="x_355668_covid_sma">22be4f8a1b041010ef721067bc4bcb72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid-smart-testing">22be4f8a1b041010ef721067bc4bcb72</sys_scope>
+        <sys_update_name>sys_security_acl_2b5f438e1b041010ef721067bc4bcb39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 03:23:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid-smart-testing">22be4f8a1b041010ef721067bc4bcb72</application>
+        <file_path/>
+        <instance_id>86cd629fdb46b3c852dd2f17d49619c9</instance_id>
+        <instance_name>dev88352</instance_name>
+        <name>sys_security_acl_2b5f438e1b041010ef721067bc4bcb39</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_355668_covid_sma_users</description><name>x_355668_covid_sma_users</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-10 03:23:27</sys_created_on><sys_id>2b5f438e1b041010ef721067bc4bcb39</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_355668_covid_sma_users</sys_name><sys_package display_value="covid-smart-testing" source="x_355668_covid_sma">22be4f8a1b041010ef721067bc4bcb72</sys_package><sys_policy/><sys_scope display_value="covid-smart-testing">22be4f8a1b041010ef721067bc4bcb72</sys_scope><sys_update_name>sys_security_acl_2b5f438e1b041010ef721067bc4bcb39</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-10 03:23:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1957218387</payload_hash>
+        <record_name>x_355668_covid_sma_users</record_name>
+        <reverted_from/>
+        <source>e6be8b4e1b041010ef721067bc4bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 03:23:27</sys_created_on>
+        <sys_id>ef5f438e1b041010ef721067bc4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171621d1f5e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 03:23:27</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>2b5f438e0e041010d1170e79750ac53b</update_guid>
+        <update_guid_history>2b5f438e0e041010d1170e79750ac53b:-1957218387</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 03:29:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0224f5f4bf104610800935efe711e001</sys_id>
+        <sys_metadata>2b5f438e1b041010ef721067bc4bcb39</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_355668_covid_sma_users</sys_name>
+        <sys_package display_value="covid-smart-testing" source="x_355668_covid_sma">22be4f8a1b041010ef721067bc4bcb72</sys_package>
+        <sys_parent display_value="">a75f438e1b041010ef721067bc4bcb51</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="covid-smart-testing">22be4f8a1b041010ef721067bc4bcb72</sys_scope>
+        <sys_scope_delete display_value="">453793b78ad744f09aa1e7b41f93c440</sys_scope_delete>
+        <sys_update_name>sys_security_acl_2b5f438e1b041010ef721067bc4bcb39</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_2b5f438e1b041010ef721067bc4bcb39">ef5f438e1b041010ef721067bc4bcb3b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 03:29:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

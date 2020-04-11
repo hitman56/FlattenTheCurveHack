@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Disease" max_length="40" name="x_355668_covid_sma_disease" sizeclass="5" type="collection">
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element label="name" max_length="300" name="name" type="string"/>
+        <element label="Symptoms" max_length="4000" name="symptoms" reference="x_355668_covid_sma_symptoms" type="glide_list"/>
+    </element>
+</database>

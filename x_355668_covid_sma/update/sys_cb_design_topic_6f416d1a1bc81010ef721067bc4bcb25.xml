@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Covid-19 detection">2b416d1a1bc81010ef721067bc4bcb22</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"cc57186f42484641ac859882e525a8a1","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"cc57186f42484641ac859882e525a8a1"}],"goals":[{"name":"primary","trigger_id":"cc57186f42484641ac859882e525a8a1","nodes":[{"type":"StartGoal","goal_id":"0ab28ff559ed41268317076ea9ec9d5c","greeting_msg":{"type":"String","mode":"string","value":""},"id":"b6d8da3d9cdb4ab6b6afc3f67b783d4e","name":"Start"},{"type":"TerminateGoal","goal_id":"0ab28ff559ed41268317076ea9ec9d5c","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"69651cc5c0574c4b96f9c3eaf486c926","name":"End"},{"type":"InputPrompt","variable_id":"4befa529d2f448348fe74427a24b011a","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Hey  i am Stuart , An Artificially Intelligent Agent , who is on a mission to fight against Corona Virus\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":false},"optional":false,"id":"186a99d6e08341e2a2912278c18e0649","name":"Intro","goal_id":"0ab28ff559ed41268317076ea9ec9d5c","applicability":{"type":"Applicability","mode":"script","value":"true"}},{"type":"InputPrompt","variable_id":"77aa0fb8360b4ee48e11daa210fc964a","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"I need a small cooperation from your End , Small Answers that will help us in performing Efficient test and saving the world .\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":false},"optional":false,"id":"3b6dedbaf0244178b0ff4b9f44fd06e3","name":"Coperation","goal_id":"0ab28ff559ed41268317076ea9ec9d5c","applicability":{"type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"b6d8da3d9cdb4ab6b6afc3f67b783d4e","target_node_id":"186a99d6e08341e2a2912278c18e0649","id":"4214590cbff84b81b9c451461ba5df98"},{"type":"Edge","source_node_id":"186a99d6e08341e2a2912278c18e0649","target_node_id":"3b6dedbaf0244178b0ff4b9f44fd06e3","id":"efcdf2cdb53846d5ac3bf4092961133c"},{"type":"Edge","source_node_id":"3b6dedbaf0244178b0ff4b9f44fd06e3","target_node_id":"69651cc5c0574c4b96f9c3eaf486c926","id":"dcfa8695a81c4853ac4494b1cd23b300"}],"id":"0ab28ff559ed41268317076ea9ec9d5c"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user"},{"type":"String","name":"intro","id":"4befa529d2f448348fe74427a24b011a"},{"type":"True/False","id":"77aa0fb8360b4ee48e11daa210fc964a","name":"coperation"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"22be4f8a1b041010ef721067bc4bcb72","domain":"global","id":"6fef59961bc81010ef721067bc4bcb1f","name":"Covid-19 detection","key_phrases":["Covid-19 detection"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":true,"design_category":"23242db273603300c1dc32e954f6a79f","library":false}</design_definition>
+        <design_topic_id>6fef59961bc81010ef721067bc4bcb1f</design_topic_id>
+        <name>Covid-19 detection</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 14:01:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6f416d1a1bc81010ef721067bc4bcb25</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="covid-smart-testing" source="x_355668_covid_sma">22be4f8a1b041010ef721067bc4bcb72</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid-smart-testing">22be4f8a1b041010ef721067bc4bcb72</sys_scope>
+        <sys_update_name>sys_cb_design_topic_6f416d1a1bc81010ef721067bc4bcb25</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 14:01:09</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

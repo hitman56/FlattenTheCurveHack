@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Testing History" max_length="40" name="x_355668_covid_sma_testing_history" sizeclass="0" type="collection"/>
+</database>
